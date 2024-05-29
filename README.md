@@ -10,7 +10,7 @@ This is a working prototype project of a wearable pusle monitor system. Remotely
 
 ![work](schematic.jpg)
 
-# Components Images 
+# Components and functions 
  
 # Pulse sensor (SEN11574) Front and back view
 The primary function of the SEN-11574 pulse sensor is to measure heart rate. The precise measurement of heartbeat rate is often a very challenging process, but with the aid of this pulse sensor, it has been much simpler. The finger is placed in front of this pulse sensor, the LED light's reflection changes depending on how much blood is flowing through capillaries at any given time. This implies that the blood volume in capillary capillaries will be high during the heartbeat and low afterward. Therefore, adjusting this volume alters the LED light. The pace of a finger's heartbeat can be detected by this change in LED light. This type of occurrence is referred described as a "photoplethysmogram."
@@ -27,10 +27,16 @@ I introduced Arduino Uno into the connection with the ESP8266 to produce good re
 The ESP8266 Wi-Fi module is mainly used for sending the data to a remote location which enable the data to be viewed on a Blynk App.
 ![esp8266](ESP8266.jpg)
 
+# Prototyping of Project
+
+![ptotype](prototyping.jpg)
+
+
 
 
 
 
 
    
- 
+# Conclusion
+The SEN11574 pulse sensor, Arduino Uno, ESP8266 and Blynk IOT platform connected were efficiently used to monitor heart rate remotely. Blynk IOT platform also store the information in the cloud and provide means of extracting history of the data for future analysis. The platform also has strong security as only persons with login (username and password) details only have access to the patient’s health information saved on the cloud. The IOT platform also provides an App that could be install on mobile phone and has web version were data can be access at anytime from anywhere in the world. The project can be improved with the use of a lower power sensor with ESP8266 which could eliminate the use of Arduino and reduce the project size.
