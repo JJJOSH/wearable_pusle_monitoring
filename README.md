@@ -10,6 +10,13 @@ This is a working prototype project of a wearable pusle monitor system. Remotely
 
 ![work](schematic.jpg)
 
+# Prototyping of Project
+
+![ptotype](prototyping.jpg)
+
+# Pulse data sent remotely to Blynk App 
+![bly](Data_on_BlynkApp.jpg)
+
 # Components and functions 
  
 # Pulse sensor (SEN11574) Front and back view
@@ -27,9 +34,6 @@ I introduced Arduino Uno into the connection with the ESP8266 to produce good re
 The ESP8266 Wi-Fi module is mainly used for sending the data to a remote location which enable the data to be viewed on a Blynk App.
 ![esp8266](ESP8266.jpg)
 
-# Prototyping of Project
-
-![ptotype](prototyping.jpg)
 
 
 
