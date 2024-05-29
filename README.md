@@ -6,6 +6,10 @@ This is a working prototype project of a wearable pusle monitor system. Remotely
 3.  Arduino Uno
 4.  Jumper wires and broadboard for prototyping
 
+# Working Prototype of the project
+
+![work](schematic.jpg)
+
 # Components Images 
  
 # Pulse sensor (SEN11574) Front and back view
@@ -14,10 +18,17 @@ The primary function of the SEN-11574 pulse sensor is to measure heart rate. The
 ![pusel](combined.jpg) 
 
 # Arduino Uno
+I introduced Arduino Uno into the connection with the ESP8266 to produce good result. The Analog port of the ESP8266 is not very efficient in processing data, hence the reason I interface the sensor with Arduino Uno which first process the data from the pulse sensor, then send the data serially to ESP8266 which function is to push the over the internet to the remote location of the Blynk App viewed on the mobile phone.
+
+![Ardui](Arduino-Uno.jpg)
+
 
 # ESP8266
 The ESP8266 Wi-Fi module is mainly used for sending the data to a remote location which enable the data to be viewed on a Blynk App.
 ![esp8266](ESP8266.jpg)
+
+
+
 
 
 
